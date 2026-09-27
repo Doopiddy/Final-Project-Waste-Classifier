@@ -72,4 +72,4 @@ if uploaded_file is not None:
     # Optionally display bounding boxes (drawn using OpenCV)
     for r in results:
         annotated_frame = r.plot()
-        st.image(annotated_frame, caption="YOLOv10 Detections", use_column_width=True)
+        st.image(annotated_frame, caption="YOLOv10 Detections", use_container_width=True)
